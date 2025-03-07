@@ -177,7 +177,7 @@ for d in os.listdir('electrical-repair'):
                     try:
                         search_categories = open(f'electrical-repair/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
          
                         
                         fp = open(f'electrical-repair/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('electrical-repair'):
 for d in os.listdir('electrical-repair'):
     try:
         search_categories = open(f'electrical-repair/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
         # if 'electrical-repair' in str(d):
         #     shutil.rmtree(f'electrical-repair/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('electrical-repair'):
 try:
     search_categories = open(f'electrical-repair/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'electrical-repair/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('http://rcelectricllc.biz/', 'https://rcelectricllc.netlify.app/').replace('(206) 804-4545', '(888) 498-9391').replace('tel:2068044545', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'electrical-repair/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
